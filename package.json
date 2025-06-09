@@ -4,7 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^12.17.3"
+    "@faker-js/faker": "^9.8.0",
+    "cypress": "^14.4.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mailosaur": "^2.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
   },
   "scripts": {
     "cypress:open": "cypress open",
